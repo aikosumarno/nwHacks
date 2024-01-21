@@ -1,0 +1,72 @@
+from thefuzz import fuzz
+from transformers import BertTokenizer, BertModel
+import torch
+import sklearn
+from sklearn.metrics.pairwise import cosine_similarity
+import nltk
+from nltk.corpus import stopwords
+
+
+
+
+#; testing fuzzy ratio and partial ratio
+
+Mission = "At Green Harmony Foundation, we're dedicated to environmental conservation, sustainability, and community engagement. Through education and impactful initiatives, we aim to protect ecosystems, mitigate climate change, and promote a harmonious coexistence with nature."
+Company = "At Tech Telecom, we redefine connectivity. Committed to innovation and quality, our team creates transformative tech solutions, leading in both technology and telecommunications. Empowering seamless communication for businesses and individuals in the digital age"
+
+print(f"Similarity score: {fuzz.ratio(Mission, Company)}")
+print(f"Similarity score: {fuzz.partial_ratio(Mission, Company)}")
+
+Mission_1 = "at fun, we are dedicated to environmental conservation and sustainability."
+Company_1 = "at techcity, we are driven to create green solutions to automobile systems to create a sustainable future."
+
+print(f"Similarity score: {fuzz.ratio(Mission_1, Company_1)}")
+print(f"Similarity score: {fuzz.partial_ratio(Mission_1, Company_1)}")
+
+Mission_2 = "Green-energy, sustainability, reuse, education, tech"
+Company_2 = "innovation, environmental, conservation, learning, social media"
+
+Mission_3 = "Our non profit is all about sustainability and conservation of caribous."
+Company_3 = "At oil industries, we strive to provide the best quality fuel to power your homes."
+
+
+Mission_4 = "Sustainable future, environmentally conscious and education"
+Company_4 = "Sustainable development, environmentally safe and fostering learning"
+
+print(f"Similarity score: {fuzz.ratio(Mission_4, Company_4)}")
+print(f"Similarity score: {fuzz.partial_ratio(Mission_4, Company_4)}")
+
+# the following code does not consider synonyms/semantics
+
+# vectorizer = TfidfVectorizer(stop_words='english', lowercase=True)
+# vectors = vectorizer.fit_transform([Mission_1, Company_1])
+
+# similarity_matrix = cosine_similarity(vectors)
+
+# similarity_score = similarity_matrix[0,1]
+# print ("Similarity score of scikitlearn: " + str(similarity_score))
+
+
+#; using bert embeddings for consideration of semantics (better for long sentences)
+#; not great for short words (ie. key words)
+nltk.download('stopwords')
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+model = BertModel.from_pretrained('bert-base-uncased')
+
+
+#; filter out stop words
+token_mission = tokenizer.encode(Mission_2, return_tensors='pt')[0]
+filtered_mission = [token for token in token_mission[1:-1] if tokenizer.decode([token]).lower() not in stopwords.words('english')]
+
+#; filter out stop words
+token_company = tokenizer.encode(Company_2, return_tensors='pt')[0]
+filtered_company = [token for token in token_company[1:-1] if tokenizer.decode([token]).lower() not in stopwords.words('english')]
+
+
+with torch.no_grad():
+    embeddings_mission = model(torch.tensor([filtered_mission])).last_hidden_state.mean(dim=1)
+    embeddings_company = model(torch.tensor([filtered_company])).last_hidden_state.mean(dim=1)
+
+similarity_score = cosine_similarity(embeddings_mission, embeddings_company)[0,0]
+
+print("Similarity score using sklearn and bert: " + str(similarity_score * 100))
