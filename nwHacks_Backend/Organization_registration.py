@@ -8,6 +8,7 @@ class Organization:
         self.contact = ""
         self.mission = ""
         self.keyword = ""
+        self.matched_list = {}
 
     def get_user_input(self, prompt):
         return input(prompt)

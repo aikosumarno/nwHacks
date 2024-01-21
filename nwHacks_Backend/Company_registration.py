@@ -9,6 +9,7 @@ class Company:
         self.mission = ""
         self.keyword = ""
         self.all_goals = []
+        self.matched_list = {}
 
 
     def get_user_input(self, prompt):

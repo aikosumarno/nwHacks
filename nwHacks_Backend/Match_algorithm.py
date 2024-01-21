@@ -9,7 +9,7 @@ from nltk.corpus import stopwords
 
 
 def key_word_similarity(key_word_org, key_word_comp):
-    similarity_score = fuzz.ratio(key_word_org, key_word_comp)
+    similarity_score = fuzz.token_sort_ratio(key_word_org, key_word_comp)
     return similarity_score
 
 # the following code does not consider synonyms/semantics
@@ -51,6 +51,5 @@ def mission_similarity(org_mission, company_mission):
 def goals_similarity(org_goals, comp_goals):
     similarity_score = 0
     for i in range(3):
-        similarity_score += fuzz.ratio(org_goals[i], comp_goals[i])
+        similarity_score += fuzz.token_sort_ratio(org_goals[i], comp_goals[i])
     return similarity_score/3.0
-
