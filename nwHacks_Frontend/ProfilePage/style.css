@@ -1,0 +1,404 @@
+.profile-page {
+  background-color: #102e7b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile-page .overlap-wrapper {
+  background-color: var(--blue);
+  width: 1280px;
+  height: 832px;
+}
+
+.profile-page .overlap {
+  position: relative;
+  width: 1211px;
+  height: 755px;
+  top: 39px;
+  left: 34px;
+  background-color: var(--off-white);
+  border-radius: 40px;
+}
+
+.profile-page .overlap-group {
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  top: 90px;
+  left: 99px;
+  background-image: url(./img/1-e8ghp9xebuphdhzmyu2dza-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.profile-page .rectangle {
+  width: 141px;
+  height: 141px;
+  top: 0;
+  background-color: #d9d9d987;
+  position: absolute;
+  left: 0;
+  border-radius: 20px;
+}
+
+.profile-page .text-wrapper {
+  position: absolute;
+  width: 122px;
+  height: 63px;
+  top: 38px;
+  left: 10px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-off-white);
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.profile-page .div {
+  position: absolute;
+  top: 245px;
+  left: 99px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .overlap-2 {
+  position: absolute;
+  width: 353px;
+  height: 472px;
+  top: 219px;
+  left: 732px;
+}
+
+.profile-page .group {
+  position: absolute;
+  width: 353px;
+  height: 472px;
+  top: 0;
+  left: 0;
+}
+
+.profile-page .overlap-3 {
+  position: relative;
+  width: 347px;
+  height: 472px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.profile-page .text-wrapper-2 {
+  position: absolute;
+  width: 108px;
+  top: 23px;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .text-wrapper-3 {
+  position: absolute;
+  width: 137px;
+  top: 115px;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .text-wrapper-4 {
+  position: absolute;
+  width: 229px;
+  top: 265px;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .overlap-group-wrapper {
+  position: absolute;
+  width: 119px;
+  height: 37px;
+  top: 72px;
+  left: 26px;
+}
+
+.profile-page .div-wrapper {
+  position: relative;
+  width: 117px;
+  height: 37px;
+  background-image: url(./img/rectangle-40-1.svg);
+  background-size: 100% 100%;
+}
+
+.profile-page .text-wrapper-5 {
+  position: absolute;
+  width: 30px;
+  top: 8px;
+  left: 44px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .group-2 {
+  position: absolute;
+  width: 119px;
+  height: 37px;
+  top: 172px;
+  left: 26px;
+}
+
+.profile-page .overlap-4 {
+  position: relative;
+  width: 117px;
+  height: 37px;
+  background-image: url(./img/rectangle-40.svg);
+  background-size: 100% 100%;
+}
+
+.profile-page .text-wrapper-6 {
+  position: absolute;
+  width: 83px;
+  top: 8px;
+  left: 19px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .group-3 {
+  position: absolute;
+  width: 119px;
+  height: 37px;
+  top: 74px;
+  left: 154px;
+}
+
+.profile-page .overlap-5 {
+  position: relative;
+  width: 117px;
+  height: 37px;
+  background-color: var(--blue);
+  border-radius: 20px;
+}
+
+.profile-page .text-wrapper-7 {
+  position: absolute;
+  width: 69px;
+  top: 10px;
+  left: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .group-4 {
+  position: absolute;
+  width: 245px;
+  height: 40px;
+  top: 313px;
+  left: 28px;
+}
+
+.profile-page .div-2 {
+  position: absolute;
+  width: 117px;
+  height: 37px;
+  top: 2px;
+  left: 0;
+  background-color: var(--blue);
+  border-radius: 20px;
+}
+
+.profile-page .text-wrapper-8 {
+  position: absolute;
+  width: 61px;
+  top: 8px;
+  left: 26px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .group-5 {
+  position: absolute;
+  width: 117px;
+  height: 40px;
+  top: 0;
+  left: 126px;
+}
+
+.profile-page .overlap-group-2 {
+  position: relative;
+  height: 40px;
+}
+
+.profile-page .frame {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-page .frame-2 {
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-page .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .linked-in {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 386px;
+  left: 25px;
+}
+
+.profile-page .overlap-6 {
+  position: absolute;
+  width: 77px;
+  height: 44px;
+  top: 386px;
+  left: 64px;
+}
+
+.profile-page .instagram {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 0;
+  left: 0;
+}
+
+.profile-page .twitter-x {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 0;
+  left: 38px;
+}
+
+.profile-page .email {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 386px;
+  left: 143px;
+}
+
+.profile-page .plus-math {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 178px;
+  left: 153px;
+}
+
+.profile-page .img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 322px;
+  left: 280px;
+}
+
+.profile-page .overlap-7 {
+  position: absolute;
+  width: 600px;
+  height: 355px;
+  top: 336px;
+  left: 99px;
+  background-color: #d9d9d9;
+  border-radius: 40px;
+}
+
+.profile-page .text-wrapper-10 {
+  position: absolute;
+  width: 513px;
+  top: 27px;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00000087;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile-page .group-6 {
+  position: absolute;
+  width: 349px;
+  height: 100px;
+  top: 92px;
+  left: 732px;
+}
+
+.profile-page .overlap-8 {
+  position: relative;
+  width: 347px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.profile-page .text-wrapper-11 {
+  position: absolute;
+  top: 29px;
+  left: 47px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #102e7b;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
