@@ -47,3 +47,10 @@ def mission_similarity(org_mission, company_mission):
     return similarity_score
 
 # print("Similarity score using sklearn and bert: " + str(similarity_score * 100))
+
+def goals_similarity(org_goals, comp_goals):
+    similarity_score = 0
+    for i in range(3):
+        similarity_score += fuzz.ratio(org_goals[i], comp_goals[i])
+    return similarity_score/3.0
+

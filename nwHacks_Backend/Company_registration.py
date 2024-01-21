@@ -1,4 +1,5 @@
 import re
+import time
 
 class Company:
     def __init__(self):
@@ -7,6 +8,7 @@ class Company:
         self.contact = ""
         self.mission = ""
         self.keyword = ""
+        self.all_goals = []
 
 
     def get_user_input(self, prompt):
@@ -19,8 +21,15 @@ class Company:
             contact = self.get_user_input("Enter your contact number: ")
             mission = self.get_user_input("Enter your company's mission: ")
             keyword = self.get_user_input("Enter additional keywords: ")
+            
+            time.sleep(1)
+            print("\n")
 
-            if not all([name, email, contact, mission]):
+            goals = self.get_user_input("Almost done! How would you like to sponsor? \n Select one or more from the following: \n Funding, Volunteers, Partnerships, Sponsorships, Mentors \n")
+            goals_other = self.get_user_input("Optional: other goals?")
+            description = self.get_user_input("And finaly, how would you describe your organization/company?")
+
+            if not all([name, email, contact, mission, goals, description]):
                 print("Error: Please fill in all the required fields.")
             elif not re.match(r"[^@]+@[^@]+\.[^@]+", email):
                 print("Error: Please enter a valid email address.")
@@ -34,6 +43,8 @@ class Company:
                 self.contact = contact
                 self.mission = mission
                 self.keyword = keyword
+                self.all_goals = [goals, goals_other, description]
+
                 self.show_personal_info(name, email, contact, mission, keyword)
                 break
 

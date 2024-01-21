@@ -9,6 +9,8 @@ def main():
     org = Organization()
     org.finish_registration()
 
+    print("\n")
+
     comp = Company()
     comp.finish_registration()
 
@@ -29,12 +31,14 @@ def main():
     # root_comp.mainloop() 
 
 
-    mission_sim = Match_algorithm.key_word_similarity(org.mission, comp.mission)
+    mission_sim = Match_algorithm.mission_similarity(org.mission, comp.mission) * 100
     val_sim = Match_algorithm.key_word_similarity(org.keyword, comp.keyword)
-    match_score = ((mission_sim + val_sim)/2.0)
+    goal_sim = Match_algorithm.goals_similarity(org.all_goals, comp.all_goals)
+    match_score = (((mission_sim + val_sim)*2) + goal_sim)/5.0
 
     print("Mission similarity: " + str(mission_sim))
     print("Values similarity: " + str(val_sim))
+    print("Goals_similarity: " + str(goal_sim))
     print("Your match score is " +  str(match_score) + "\n")
     print("\n Matching... \n \n")
     time.sleep(3)
