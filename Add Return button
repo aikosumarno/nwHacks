@@ -70,7 +70,18 @@ class Application(Frame):
   def return_to_question(self):
     self.master.destroy()
     ask_question()
-      
+    if response == True:
+      #Run the Application class
+      root = tk.Tk()
+      root.title("Company Registration")
+      app = Application(root)
+      root.mainloop()
+    else:
+      #Run the Application2 class
+      root = tk.Tk()
+      root.title("Organization Registration")
+      app = Application2(root)
+      root.mainloop()
   
   def finish_registration(self):
     name = self.name_entry.get()
@@ -157,6 +168,19 @@ class Application2(Frame):
   def return_to_question(self):
     self.master.destroy()
     ask_question()
+    if response == True:
+      #Run the Application class
+      root = tk.Tk()
+      root.title("Company Registration")
+      app = Application(root)
+      root.mainloop()
+    else:
+      #Run the Application2 class
+      root = tk.Tk()
+      root.title("Organization Registration")
+      app = Application2(root)
+      root.mainloop()
+    
   def reset_registration(self):
       self.name_entry.delete(0, END)
       reset(self.name_entry, self.email_entry, self.contact_entry, self.mission_entry, self.keyword_entry, True)
