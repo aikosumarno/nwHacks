@@ -1,6 +1,6 @@
 # nwHacks
 
-✨Are you a non-profit organization or club looking for sponsorships and to connect with companies? Are you a company looking to market your product? Tuki is an interactive web app with an effortlessly navigatable system and a unique matching algorithm that makes building the connection easier than ever. ✨
+✨Are you a non-profit organization or club looking for sponsorships and to connect with companies? Are you a company looking to market your product? Tuki is an interactive web app with an effortlessly navigatable system and a unique matching algorithm that makes building connections easier than ever. ✨
 
 _tuki_... directly translates to "support" in Finnish and represents what we stand for at the core because your mission matters to us. We hope to foster long-term connection and partnership because we see your potential: to transform vision to reality.
 
