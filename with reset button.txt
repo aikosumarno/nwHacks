@@ -179,27 +179,6 @@ def ask_question():
   global response
   response = messagebox.askokcancel("Who are you?", "Company or organization?")
 
-def return_registration():
-  global response
-  master = tk.Tk()
-  #clear the current window
-  master.destroy()
-  #display the message box again
-  ask_question()
-
-  if response == True:
-    #Run the Application class
-    root = tk.Tk()
-    root.title("Company Registration")
-    app = Application(root)
-    root.mainloop()
-  else:
-    #Run the Application2 class
-    root = tk.Tk()
-    root.title("Organization Registration")
-    app = Application2(root)
-    root.mainloop()
-
 ask_question()
 if response == True:
   #Run the Application class
