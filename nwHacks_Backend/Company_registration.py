@@ -1,8 +1,13 @@
 import re
 
-class CompanyRegistration:
+class Company:
     def __init__(self):
-        self.comp_data = {}
+        self.name = ""
+        self.email = ""
+        self.contact = ""
+        self.mission = ""
+        self.keyword = ""
+
 
     def get_user_input(self, prompt):
         return input(prompt)
@@ -24,13 +29,11 @@ class CompanyRegistration:
             else:
                 completeness_percentage = 25 * 4
                 print("Success: Registration complete! Completeness percentage: {}%".format(completeness_percentage))
-                self.comp_data = {
-                    "name": name,
-                    "email": email,
-                    "contact": contact,
-                    "mission": mission,
-                    "keyword": keyword
-                }
+                self.name = name
+                self.email = email
+                self.contact = contact
+                self.mission = mission
+                self.keyword = keyword
                 self.show_personal_info(name, email, contact, mission, keyword)
                 break
 
@@ -40,8 +43,8 @@ class CompanyRegistration:
         )
         print("Personal Information:\n" + personal_info)
 
-    def get_comp_data(self):
-        return self.comp_data
+    # def get_comp_data(self):
+    #     return self.comp_data
 
 
 

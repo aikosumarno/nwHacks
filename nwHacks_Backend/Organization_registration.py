@@ -1,8 +1,12 @@
 import re
 
-class OrganizationRegistration:
+class Organization:
     def __init__(self):
-        self.org_data = {}
+        self.name = ""
+        self.email = ""
+        self.contact = ""
+        self.mission = ""
+        self.keyword = ""
 
     def get_user_input(self, prompt):
         return input(prompt)
@@ -24,13 +28,11 @@ class OrganizationRegistration:
             else:
                 completeness_percentage = 25 * 4
                 print("Success: Registration complete! Completeness percentage: {}%".format(completeness_percentage))
-                self.org_data = {
-                    "name": name,
-                    "email": email,
-                    "contact": contact,
-                    "mission": mission,
-                    "keyword": keyword
-                }
+                self.name = name
+                self.email = email
+                self.contact = contact
+                self.mission = mission
+                self.keyword = keyword
                 self.show_personal_info(name, email, contact, mission, keyword)
                 break
 
@@ -40,8 +42,8 @@ class OrganizationRegistration:
         )
         print("Personal Information:\n" + personal_info)
     
-    def get_org_data(self):
-        return self.org_data
+    # def get_org_data(self):
+    #     return self.org_data
 
 
 # from tkinter import *
