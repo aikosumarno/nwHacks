@@ -1,0 +1,520 @@
+.request-form,
+.request-form * {
+  box-sizing: border-box;
+}
+.request-form {
+  background: #112e7b;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-4 {
+  background: #f7f9ff;
+  border-radius: 30px;
+  width: 1036px;
+  height: 714px;
+  position: absolute;
+  left: 122px;
+  top: 142px;
+  overflow-y: auto;
+}
+.upload-pictures {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-28 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 422px;
+  height: 264px;
+  position: absolute;
+  left: 550px;
+  top: 33px;
+}
+.rectangle-29 {
+  background: #eff2f9;
+  border-style: dashed;
+  border-color: #000000;
+  border-width: 1px;
+  width: 368px;
+  height: 175px;
+  position: absolute;
+  left: 577px;
+  top: 51px;
+}
+.photo {
+  width: 146.55px;
+  height: 146.55px;
+  position: absolute;
+  left: 689px;
+  top: 63px;
+  overflow: visible;
+}
+.upload {
+  width: 248px;
+  height: 47px;
+  position: static;
+}
+.rectangle-32 {
+  background: #4ba96a;
+  border-radius: 60px;
+  width: 202.06px;
+  height: 47px;
+  position: absolute;
+  left: 665.43px;
+  top: 238px;
+}
+.upload-pictures2 {
+  color: var(--off-white, #f7f9ff);
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 649px;
+  top: 250.51px;
+  width: 248px;
+  height: 34.27px;
+}
+.upload-proposal {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-282 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 422px;
+  height: 264px;
+  position: absolute;
+  left: 549px;
+  top: 315px;
+}
+.rectangle-292 {
+  background: #eff2f9;
+  border-style: dashed;
+  border-color: #000000;
+  border-width: 1px;
+  width: 368px;
+  height: 175px;
+  position: absolute;
+  left: 576px;
+  top: 333px;
+}
+.document {
+  width: 146.55px;
+  height: 146.55px;
+  position: static;
+}
+.rectangle-302 {
+  background: #dde7ff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 146.55px;
+  height: 146.55px;
+  position: absolute;
+  left: 688px;
+  top: 345px;
+}
+.w {
+  color: #000000;
+  text-align: center;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 693px;
+  top: 349px;
+}
+.line-5 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 68.01px;
+  height: 0px;
+  position: absolute;
+  left: 753px;
+  top: 372px;
+  transform-origin: 0 0;
+  transform: rotate(-0.843deg) scale(1, 1);
+}
+.line-6 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 68.01px;
+  height: 0px;
+  position: absolute;
+  left: 753px;
+  top: 385px;
+  transform-origin: 0 0;
+  transform: rotate(-0.843deg) scale(1, 1);
+}
+.line-7 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 68.01px;
+  height: 0px;
+  position: absolute;
+  left: 753px;
+  top: 398px;
+  transform-origin: 0 0;
+  transform: rotate(-0.843deg) scale(1, 1);
+}
+.line-8 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 126px;
+  height: 0px;
+  position: absolute;
+  left: 695px;
+  top: 412px;
+  transform-origin: 0 0;
+  transform: rotate(0.455deg) scale(1, 1);
+}
+.line-9 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 126px;
+  height: 0px;
+  position: absolute;
+  left: 695px;
+  top: 425px;
+  transform-origin: 0 0;
+  transform: rotate(0.455deg) scale(1, 1);
+}
+.line-10 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 126px;
+  height: 0px;
+  position: absolute;
+  left: 695px;
+  top: 438px;
+  transform-origin: 0 0;
+  transform: rotate(0.455deg) scale(1, 1);
+}
+.line-11 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 126px;
+  height: 0px;
+  position: absolute;
+  left: 694px;
+  top: 453px;
+  transform-origin: 0 0;
+  transform: rotate(0.455deg) scale(1, 1);
+}
+.line-12 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 126px;
+  height: 0px;
+  position: absolute;
+  left: 695px;
+  top: 468px;
+  transform-origin: 0 0;
+  transform: rotate(0.455deg) scale(1, 1);
+}
+.upload2 {
+  width: 261px;
+  height: 51px;
+  position: static;
+}
+.rectangle-322 {
+  background: #4ba96a;
+  border-radius: 60px;
+  width: 212.65px;
+  height: 51px;
+  position: absolute;
+  left: 659.29px;
+  top: 516px;
+}
+.upload-proposal2 {
+  color: var(--off-white, #f7f9ff);
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 642px;
+  top: 529.58px;
+  width: 261px;
+  height: 37.19px;
+}
+.what-are-you-looking-for {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 54px;
+  top: 345px;
+}
+.description {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-43 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 427px;
+  height: 203px;
+  position: absolute;
+  left: 56px;
+  top: 130px;
+}
+.rectangle-44 {
+  background: var(--lightblue, #eff2f9);
+  border-radius: 5px;
+  width: 375px;
+  height: 117px;
+  position: absolute;
+  left: 79px;
+  top: 193px;
+}
+.description2 {
+  color: #091128;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 79px;
+  top: 152px;
+  width: 201px;
+}
+.how-would-you-describe-your-organization {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 95px;
+  top: 204px;
+  width: 354px;
+}
+.how-would-you-describe-your-organization-span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.how-would-you-describe-your-organization-span2 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.name {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-48 {
+  background: #dde7ff;
+  border-radius: 50px;
+  width: 434px;
+  height: 71px;
+  position: absolute;
+  left: 49px;
+  top: 41px;
+}
+.event-name {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  position: absolute;
+  left: 124px;
+  top: 43px;
+}
+.hover {
+  width: 214.16px;
+  height: 47.17px;
+  position: absolute;
+  left: 49px;
+  top: 388px;
+}
+.rectangle-38 {
+  background: #dde7ff;
+  border-radius: 14.98px;
+  width: 214.16px;
+  height: 47.17px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.mentors {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18.720008850097656px;
+  font-weight: 700;
+  position: absolute;
+  left: 65.89px;
+  top: 9.73px;
+}
+.hover2 {
+  width: 214.16px;
+  height: 47.17px;
+  position: absolute;
+  left: 49px;
+  top: 456.64px;
+}
+.mentors2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18.720008850097656px;
+  font-weight: 700;
+  position: absolute;
+  left: 64.89px;
+  top: 9.73px;
+}
+.hover3 {
+  width: 214.16px;
+  height: 47.17px;
+  position: absolute;
+  left: 49px;
+  top: 525.28px;
+}
+.mentors3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18.720008850097656px;
+  font-weight: 700;
+  position: absolute;
+  left: 51.89px;
+  top: 9.73px;
+}
+.hover4 {
+  width: 214.16px;
+  height: 47.17px;
+  position: absolute;
+  left: 299px;
+  top: 388px;
+}
+.mentors4 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18.720008850097656px;
+  font-weight: 700;
+  position: absolute;
+  left: 41.89px;
+  top: 9.73px;
+}
+.hover5 {
+  width: 214.16px;
+  height: 47.17px;
+  position: absolute;
+  left: 299px;
+  top: 456.64px;
+}
+.mentors5 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18.720008850097656px;
+  font-weight: 700;
+  position: absolute;
+  left: 38.89px;
+  top: 9.73px;
+}
+.hover6 {
+  width: 214.16px;
+  height: 47.17px;
+  position: absolute;
+  left: 299px;
+  top: 525.28px;
+}
+.mentors6 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18.720008850097656px;
+  font-weight: 700;
+  position: absolute;
+  left: 72.89px;
+  top: 9.73px;
+}
+.component-1 {
+  width: 267px;
+  height: 70px;
+  position: absolute;
+  left: 411px;
+  top: 600px;
+}
+.rectangle-59 {
+  background: #d3f0dd;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 267px;
+  height: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.button {
+  color: #4ba96a;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 57px;
+  top: 8px;
+}
+.frame-5 {
+  background: #f7f9ff;
+  border-radius: 30px;
+  width: 1036px;
+  height: 714px;
+  position: absolute;
+  left: 122px;
+  top: 142px;
+  overflow-y: auto;
+}
+.photo2 {
+  width: 146.55px;
+  height: 146.55px;
+  position: absolute;
+  left: 689px;
+  top: 63px;
+  overflow: visible;
+}
+.how-would-you-describe-your-organization-span3 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.how-would-you-describe-your-organization-span4 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.request-form2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  position: absolute;
+  left: 129px;
+  top: 60px;
+}

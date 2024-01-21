@@ -1,0 +1,11 @@
+:root {
+  --green: rgba(75, 169, 106, 1);
+  --blue: rgba(17, 46, 123, 1);
+  --off-white: var(--collection-1-off-white);
+  --gray: rgba(217, 217, 217, 1);
+  --collection-1-off-white: rgba(247, 249, 255, 1);
+  --collection-1-off-black: rgba(9, 17, 40, 1);
+  --collection-1-light-blue: rgba(221, 231, 255, 1);
+  --collection-1-lightblue: rgba(239, 242, 249, 1);
+  --collection-1-light-green: rgba(211, 240, 221, 1);
+}

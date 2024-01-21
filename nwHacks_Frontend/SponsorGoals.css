@@ -1,0 +1,301 @@
+.get-to-know-you-finder-investor,
+.get-to-know-you-finder-investor * {
+  box-sizing: border-box;
+}
+.get-to-know-you-finder-investor {
+  background: #112e7b;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+.tuki {
+  width: 140px;
+  height: 105px;
+  position: absolute;
+  left: 44px;
+  top: 32px;
+}
+.tuki2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.questionaire {
+  background: var(--off-white, #f7f9ff);
+  border-radius: 20px;
+  width: 1016px;
+  height: 624px;
+  position: absolute;
+  left: 132px;
+  top: 208px;
+}
+.others {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-38 {
+  background: #dde7ff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #091128;
+  border-width: 1px;
+  width: 574.11px;
+  height: 210px;
+  position: absolute;
+  left: 408px;
+  top: 21px;
+}
+.other-goals {
+  color: #091128;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 438.68px;
+  top: 33.82px;
+  width: 262.95px;
+  height: 30.56px;
+}
+.text-box {
+  width: 509.83px;
+  height: 141.69px;
+  position: static;
+}
+.rectangle-42 {
+  background: #dde7ff;
+  border-style: solid;
+  border-color: #091128;
+  border-width: 1px;
+  width: 509.83px;
+  height: 141.69px;
+  position: absolute;
+  left: 438.68px;
+  top: 73.29px;
+}
+.please-enter-detailed-keywords {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 468.84px;
+  top: 88.04px;
+  width: 324.31px;
+  height: 57.35px;
+}
+.description {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-43 {
+  background: #dde7ff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #091128;
+  border-width: 1px;
+  width: 568.08px;
+  height: 232px;
+  position: absolute;
+  left: 414px;
+  top: 259px;
+}
+.rectangle-44 {
+  background: #dde7ff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #091128;
+  border-width: 1px;
+  width: 503.49px;
+  height: 149.71px;
+  position: absolute;
+  left: 444.83px;
+  top: 315px;
+}
+.description2 {
+  color: #091128;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 456.57px;
+  top: 272.71px;
+  width: 224.59px;
+  height: 43.43px;
+}
+.how-would-you-describe-your-company {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 474.18px;
+  top: 329.86px;
+  width: 457.99px;
+  height: 26.29px;
+}
+.how-would-you-describe-your-company-span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.how-would-you-describe-your-company-span2 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.next {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-36 {
+  background: #4ba96a;
+  border-radius: 40px;
+  width: 262px;
+  height: 54px;
+  position: absolute;
+  left: 377px;
+  top: 519px;
+}
+.done {
+  color: var(--off-white, #f7f9ff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 479px;
+  top: 528px;
+}
+.hover {
+  width: 240px;
+  height: 58px;
+  position: absolute;
+  left: 53px;
+  top: 469px;
+}
+.rectangle-382 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 286px;
+  height: 63px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.mentors {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 88px;
+  top: 13px;
+}
+.hover2 {
+  width: 240px;
+  height: 58px;
+  position: absolute;
+  left: 55px;
+  top: 378px;
+}
+.mentors2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 13px;
+}
+.hover3 {
+  width: 240px;
+  height: 58px;
+  position: absolute;
+  left: 55px;
+  top: 283px;
+}
+.mentors3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 57px;
+  top: 13px;
+}
+.hover4 {
+  width: 240px;
+  height: 58px;
+  position: absolute;
+  left: 55px;
+  top: 188px;
+}
+.mentors4 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 69px;
+  top: 13px;
+}
+.hover5 {
+  width: 240px;
+  height: 58px;
+  position: absolute;
+  left: 53px;
+  top: 93px;
+}
+.mentors5 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  left: 88px;
+  top: 13px;
+}
+.how-would-you-like-to-sponsor {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+  top: 26px;
+  width: 296px;
+  height: 49px;
+}
+.goals {
+  color: var(--off-white, #f7f9ff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  position: absolute;
+  left: 132px;
+  top: 137px;
+  width: 326px;
+  height: 48px;
+}

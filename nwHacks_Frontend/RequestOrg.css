@@ -1,0 +1,681 @@
+.requests-organization,
+.requests-organization * {
+  box-sizing: border-box;
+}
+.requests-organization {
+  background: var(--blue, #112e7b);
+  width: 1280px;
+  height: 832px;
+  position: relative;
+  overflow: hidden;
+}
+.group-7 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-2 {
+  background: #d9d9d9;
+  border-radius: 30px;
+  width: 274px;
+  height: 310px;
+  position: absolute;
+  left: 208px;
+  top: 231px;
+}
+.rectangle-3 {
+  background: #d9d9d9;
+  border-radius: 30px;
+  width: 274px;
+  height: 310px;
+  position: absolute;
+  left: 503px;
+  top: 231px;
+}
+.rectangle-5 {
+  background: #d9d9d9;
+  border-radius: 30px;
+  width: 274px;
+  height: 310px;
+  position: absolute;
+  left: 503px;
+  top: 577px;
+}
+.rectangle-6 {
+  background: #d9d9d9;
+  border-radius: 30px;
+  width: 274px;
+  height: 310px;
+  position: absolute;
+  left: 798px;
+  top: 231px;
+}
+.rectangle-7 {
+  background: #d9d9d9;
+  border-radius: 30px;
+  width: 274px;
+  height: 310px;
+  position: absolute;
+  left: 798px;
+  top: 577px;
+}
+.rectangle-4 {
+  background: #d9d9d9;
+  border-radius: 30px;
+  width: 274px;
+  height: 310px;
+  position: absolute;
+  left: 208px;
+  top: 577px;
+}
+.requests {
+  color: #eff2f9;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 208px;
+  top: 135px;
+}
+.tuki {
+  position: absolute;
+  right: 85.86%;
+  left: 3.2%;
+  width: 10.94%;
+  bottom: 83.77%;
+  top: 3.61%;
+  height: 12.62%;
+}
+.tuki2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.project-detail {
+  width: 233px;
+  height: 271px;
+  position: absolute;
+  left: 227px;
+  top: 251px;
+}
+.photo {
+  height: auto;
+  position: absolute;
+  right: 18.65%;
+  left: 18.45%;
+  width: 62.9%;
+  bottom: 45.92%;
+  top: 0%;
+  height: 54.08%;
+  overflow: visible;
+}
+._1-258-00-2-500-00 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: -0.86%;
+  left: 49.79%;
+  width: 51.07%;
+  bottom: 15.87%;
+  top: 77.49%;
+  height: 6.64%;
+}
+.doctors-without-borders {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 85.84%;
+  left: 0%;
+  width: 14.16%;
+  bottom: 34.69%;
+  top: 58.67%;
+  height: 6.64%;
+}
+.reduce-healthcare-disparities-in-gaza-by-sending-healthcare-supplies-and-medical-personnel-on-a-2-week-mission-trip {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 25.83%;
+  top: 65.31%;
+  height: 8.86%;
+}
+.progress-bar {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-57 {
+  background: var(--light-green, #d3f0dd);
+  border-radius: 50px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 14.39%;
+  top: 84.13%;
+  height: 1.48%;
+}
+.rectangle-56 {
+  background: #4ba96a;
+  border-radius: 50px;
+  position: absolute;
+  right: 45.49%;
+  left: 0%;
+  width: 54.51%;
+  bottom: 14.39%;
+  top: 84.13%;
+  height: 1.48%;
+}
+.connect {
+  position: absolute;
+  right: 26.61%;
+  left: 27.04%;
+  width: 46.35%;
+  bottom: 0%;
+  top: 90.04%;
+  height: 9.96%;
+}
+.rectangle-58 {
+  background: #d3f0dd;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.connect2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 25.93%;
+  left: 25%;
+  width: 49.07%;
+  bottom: 18.52%;
+  top: 14.81%;
+  height: 66.67%;
+}
+.rectangle-61 {
+  width: 194.45px;
+  height: 37.48px;
+  position: absolute;
+  left: 180.5px;
+  top: 343.5px;
+  transform: translate(26.5px, -113.45px);
+  overflow: visible;
+}
+.pending {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 222.09px;
+  top: 306.93px;
+  transform-origin: 0 0;
+  transform: rotate(-48deg) scale(1, 1);
+}
+.red-cross {
+  position: absolute;
+  inset: 0;
+}
+.connect3 {
+  width: 108px;
+  height: 27px;
+  position: absolute;
+  left: 588px;
+  top: 495px;
+}
+.photo2 {
+  height: auto;
+  position: absolute;
+  right: 44.33%;
+  left: 44.22%;
+  width: 11.45%;
+  bottom: 52.22%;
+  top: 30.17%;
+  height: 17.61%;
+  overflow: visible;
+}
+._10-events-sponsored {
+  color: #000000;
+  text-align: right;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 40.94%;
+  left: 49.3%;
+  width: 9.77%;
+  bottom: 42.43%;
+  top: 55.41%;
+  height: 2.16%;
+}
+.herman-miller {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 52.34%;
+  left: 40.86%;
+  width: 6.8%;
+  bottom: 48.56%;
+  top: 49.28%;
+  height: 2.16%;
+}
+.frequent-sponsor-of-hackathons-and-case-competitions {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  position: absolute;
+  right: 40.94%;
+  left: 40.86%;
+  width: 18.2%;
+  bottom: 45.67%;
+  top: 51.44%;
+  height: 2.88%;
+}
+.progress-bar2 {
+  width: 233px;
+  height: 4px;
+  position: static;
+}
+.rectangle-572 {
+  background: var(--light-green, #d3f0dd);
+  border-radius: 50px;
+  position: absolute;
+  right: 40.94%;
+  left: 40.86%;
+  width: 18.2%;
+  bottom: 41.95%;
+  top: 57.57%;
+  height: 0.48%;
+}
+.rectangle-562 {
+  background: #4ba96a;
+  border-radius: 50px;
+  position: absolute;
+  right: 54.61%;
+  left: 40.86%;
+  width: 4.53%;
+  bottom: 41.95%;
+  top: 57.57%;
+  height: 0.48%;
+}
+.ronald-mcdonald {
+  position: absolute;
+  inset: 0;
+}
+.connect4 {
+  width: 108px;
+  height: 27px;
+  position: absolute;
+  left: 883px;
+  top: 495px;
+}
+.photo3 {
+  height: auto;
+  position: absolute;
+  right: 21.28%;
+  left: 67.27%;
+  width: 11.45%;
+  bottom: 52.22%;
+  top: 30.17%;
+  height: 17.61%;
+  overflow: visible;
+}
+._5-000-available {
+  color: #000000;
+  text-align: right;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 17.89%;
+  left: 73.98%;
+  width: 8.12%;
+  bottom: 42.43%;
+  top: 55.41%;
+  height: 2.16%;
+}
+.google {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 32.66%;
+  left: 63.91%;
+  width: 3.44%;
+  bottom: 48.56%;
+  top: 49.28%;
+  height: 2.16%;
+}
+.donating-to-charitable-organizations-working-to-make-technology-more-accessible {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  position: absolute;
+  right: 17.89%;
+  left: 63.91%;
+  width: 18.2%;
+  bottom: 45.67%;
+  top: 51.44%;
+  height: 2.88%;
+}
+.rectangle-573 {
+  background: var(--light-green, #d3f0dd);
+  border-radius: 50px;
+  position: absolute;
+  right: 17.89%;
+  left: 63.91%;
+  width: 18.2%;
+  bottom: 41.95%;
+  top: 57.57%;
+  height: 0.48%;
+}
+.rectangle-563 {
+  background: #4ba96a;
+  border-radius: 50px;
+  position: absolute;
+  right: 23.28%;
+  left: 63.91%;
+  width: 12.81%;
+  bottom: 41.95%;
+  top: 57.57%;
+  height: 0.48%;
+}
+.nw-hacks {
+  position: absolute;
+  inset: 0;
+}
+.connect5 {
+  width: 108px;
+  height: 27px;
+  position: absolute;
+  left: 280px;
+  top: 860px;
+}
+.photo4 {
+  height: auto;
+  position: absolute;
+  right: 67.3%;
+  left: 21.25%;
+  width: 11.45%;
+  bottom: 8.59%;
+  top: 73.8%;
+  height: 17.61%;
+  overflow: visible;
+}
+._2-3-partners {
+  color: #000000;
+  text-align: right;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 63.91%;
+  left: 30.16%;
+  width: 5.94%;
+  bottom: -1.2%;
+  top: 99.04%;
+  height: 2.16%;
+}
+.kellogs {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 78.52%;
+  left: 17.89%;
+  width: 3.59%;
+  bottom: 4.93%;
+  top: 92.91%;
+  height: 2.16%;
+}
+.partner-with-us-to-share-our-products-to-the-local-community {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  position: absolute;
+  right: 63.91%;
+  left: 17.89%;
+  width: 18.2%;
+  bottom: 2.04%;
+  top: 95.07%;
+  height: 2.88%;
+}
+.rectangle-574 {
+  background: var(--light-green, #d3f0dd);
+  border-radius: 50px;
+  position: absolute;
+  right: 63.91%;
+  left: 17.89%;
+  width: 18.2%;
+  bottom: -1.68%;
+  top: 101.2%;
+  height: 0.48%;
+}
+.rectangle-564 {
+  background: #4ba96a;
+  border-radius: 50px;
+  position: absolute;
+  right: 66.09%;
+  left: 17.89%;
+  width: 16.02%;
+  bottom: -1.68%;
+  top: 101.2%;
+  height: 0.48%;
+}
+.food-bank {
+  position: absolute;
+  inset: 0;
+}
+.connect6 {
+  width: 108px;
+  height: 27px;
+  position: absolute;
+  left: 580px;
+  top: 860px;
+}
+.photo5 {
+  height: auto;
+  position: absolute;
+  right: 44.41%;
+  left: 44.14%;
+  width: 11.45%;
+  bottom: 8.59%;
+  top: 73.8%;
+  height: 17.61%;
+  overflow: visible;
+}
+._8-mentors-available {
+  color: #000000;
+  text-align: right;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 41.02%;
+  left: 49.38%;
+  width: 9.61%;
+  bottom: -1.2%;
+  top: 99.04%;
+  height: 2.16%;
+}
+.you-tube {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 54.92%;
+  left: 40.78%;
+  width: 4.3%;
+  bottom: 4.93%;
+  top: 92.91%;
+  height: 2.16%;
+}
+.mentors-available-to-teach-beginners-how-to-edit-and-upload-videos-onto-you-tube {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  position: absolute;
+  right: 41.02%;
+  left: 40.78%;
+  width: 18.2%;
+  bottom: 2.04%;
+  top: 95.07%;
+  height: 2.88%;
+}
+.rectangle-575 {
+  background: var(--light-green, #d3f0dd);
+  border-radius: 50px;
+  position: absolute;
+  right: 41.02%;
+  left: 40.78%;
+  width: 18.2%;
+  bottom: -1.68%;
+  top: 101.2%;
+  height: 0.48%;
+}
+.rectangle-565 {
+  background: #4ba96a;
+  border-radius: 50px;
+  position: absolute;
+  right: 57.73%;
+  left: 40.78%;
+  width: 1.48%;
+  bottom: -1.68%;
+  top: 101.2%;
+  height: 0.48%;
+}
+.girl-smarts-4-tech {
+  position: absolute;
+  inset: 0;
+}
+.connect7 {
+  width: 108px;
+  height: 27px;
+  position: absolute;
+  left: 884px;
+  top: 860px;
+}
+.photo6 {
+  height: auto;
+  position: absolute;
+  right: 21.28%;
+  left: 67.27%;
+  width: 11.45%;
+  bottom: 8.47%;
+  top: 73.92%;
+  height: 17.61%;
+  overflow: visible;
+}
+.open-to-inquiries {
+  color: #000000;
+  text-align: right;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 17.89%;
+  left: 73.91%;
+  width: 8.2%;
+  bottom: -1.32%;
+  top: 99.16%;
+  height: 2.16%;
+}
+.waze {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 33.36%;
+  left: 63.91%;
+  width: 2.73%;
+  bottom: 4.81%;
+  top: 93.03%;
+  height: 2.16%;
+}
+.giving-out-free-premium-memberships-for-event-giveaways {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  position: absolute;
+  right: 17.89%;
+  left: 63.91%;
+  width: 18.2%;
+  bottom: 1.92%;
+  top: 95.19%;
+  height: 2.88%;
+}
+.rectangle-576 {
+  background: var(--light-green, #d3f0dd);
+  border-radius: 50px;
+  position: absolute;
+  right: 17.89%;
+  left: 63.91%;
+  width: 18.2%;
+  bottom: -1.8%;
+  top: 101.32%;
+  height: 0.48%;
+}
+.rectangle-566 {
+  background: #4ba96a;
+  border-radius: 50px;
+  position: absolute;
+  right: 31.56%;
+  left: 63.91%;
+  width: 4.53%;
+  bottom: -1.8%;
+  top: 101.32%;
+  height: 0.48%;
+}

@@ -1,0 +1,291 @@
+.sign-up-1,
+.sign-up-1 * {
+  box-sizing: border-box;
+}
+.sign-up-1 {
+  background: #112e7b;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+  overflow: hidden;
+}
+.sign-up {
+  background: #f7f9ff;
+  border-radius: 20px;
+  width: 508px;
+  height: 702px;
+  position: absolute;
+  left: 386px;
+  top: 88px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow-y: auto;
+}
+.create-an-account {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-26 {
+  background: #4ba96a;
+  border-radius: 50px;
+  width: 316px;
+  height: 59px;
+  position: absolute;
+  left: 102px;
+  top: 630px;
+}
+.create-an-account2 {
+  color: var(--off-white, #f7f9ff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 163px;
+  top: 645px;
+}
+.organization-name {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-9 {
+  background: var(--light-blue, #dde7ff);
+  border-radius: 20px;
+  width: 450px;
+  height: 62px;
+  position: absolute;
+  left: 28px;
+  top: 177px;
+}
+.organization-name2 {
+  color: var(--off-black, #091128);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 54px;
+  top: 187px;
+}
+.password {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-11 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 450px;
+  height: 62px;
+  position: absolute;
+  left: 30px;
+  top: 396px;
+}
+.password2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 57px;
+  top: 406px;
+}
+.email {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-10 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 450px;
+  height: 62px;
+  position: absolute;
+  left: 28px;
+  top: 250px;
+}
+.email2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 54px;
+  top: 260px;
+}
+.verify-email {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-23 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 450px;
+  height: 62px;
+  position: absolute;
+  left: 28px;
+  top: 323px;
+}
+.verify-email2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 57px;
+  top: 333px;
+}
+.verify-password {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-12 {
+  background: #dde7ff;
+  border-radius: 20px;
+  width: 450px;
+  height: 62px;
+  position: absolute;
+  left: 28px;
+  top: 469px;
+}
+.verify-password2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 54px;
+  top: 479px;
+}
+.newsletter {
+  position: absolute;
+  inset: 0;
+}
+.send-weekly-newsletters {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 136px;
+  top: 579px;
+}
+.component-2 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 103px;
+  top: 583px;
+}
+.rectangle-24 {
+  background: #f7f9ff;
+  border-style: solid;
+  border-color: #091128;
+  border-width: 3px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.terms-conditions {
+  position: absolute;
+  inset: 0;
+}
+.accept-terms-conditions {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 136px;
+  top: 551px;
+  width: 272px;
+}
+.component-22 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 103px;
+  top: 555px;
+}
+.login {
+  position: absolute;
+  inset: 0;
+}
+.already-have-an-account {
+  color: #091128;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  left: 28px;
+  top: 30px;
+}
+.rectangle-22 {
+  background: #4ba96a;
+  border-radius: 20px;
+  width: 172px;
+  height: 42px;
+  position: absolute;
+  left: 304px;
+  top: 23px;
+}
+.login2 {
+  color: var(--off-white, #f7f9ff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 364px;
+  top: 29px;
+}
+.sign-up2 {
+  color: var(--blue, #112e7b);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  position: absolute;
+  left: 137px;
+  top: 87px;
+}
+.line-3 {
+  border-style: solid;
+  border-color: #091128;
+  border-width: 1px 0 0 0;
+  width: 512.02px;
+  height: 0px;
+  position: absolute;
+  left: -1px;
+  top: 83px;
+  transform-origin: 0 0;
+  transform: rotate(0.448deg) scale(1, 1);
+}
+.tuki {
+  width: 140px;
+  height: 105px;
+  position: absolute;
+  left: 44px;
+  top: 36px;
+}
+.tuki2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
